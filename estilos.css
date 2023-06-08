@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background:rgb(180, 238, 172) ;
+}
+h1{
+    font: bold 30px times;
+    text-align: center;
+}
+h2{
+    margin-top: 5px;
+    text-align: center; 
+    font: lighter 22px times;
+    color: rgb(30, 8, 8);
+}
+header,article,nav,section,aside,footer {
+    display: block;
+}
+header{
+    background:rgb(135, 238, 120) ;
+    border-bottom: 2px solid rgb(198, 240, 164) ;
+    padding-bottom: 8px;
+    padding-top: 4px;
+}
+.logo{
+    width: 40px;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 2px;
+}
+.cabecera li{
+    padding-left: 40px;
+    list-style: none;
+    display: inline-block;
+}
+.titulo{
+  margin-left: 2px;  
+}
+.menu{
+    background:rgb(158, 185, 154) ;
+    padding-left: 60px;
+    padding-top: 4px; 
+    padding-bottom: 4px;
+}
+ .menu li{
+    list-style:none ;
+    padding: 5px 10px;
+    display: inline-block;
+    
+}
+ section{
+    margin-top: 30px;
+    margin-left: 60px ;
+    width: 60%;
+    float: left;
+}
+article{
+    background:#daf5dc;
+    padding: 10px 30px;
+    
+}
+ .tituloprimero{
+    padding: 30px;
+}
+ .titulosegundo{
+    padding: 30px;
+    margin-top: 5px;
+}
+ h3{
+ font: bold 15px times;
+ color: rgba(162, 165, 167, 0.852);
+ text-align: center;
+  margin: 3px auto;
+}
+address{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+aside{
+    width:20%;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+    float: left;
+}
+ blockquote[cite] {
+    background: hwb(125 84% 7%);
+    padding: 15px 20px;
+    margin-bottom: 25px;
+}
+    
+ footer{
+    width: 160px;
+   background: #d7f0d9;
+   font: bold  20px times ; 
+   color: rgb(122, 117, 117);
+   padding: 5px 25px;
+   margin-top: 30px;
+}
+
+ footer.pie{
+  width: 100%;
+  background: rgb(140, 160, 115);
+  padding: 5px 35px;
+  clear: both;
+  margin-bottom: 1px;
+}
+h4{
+    font: lighter 18px times;
+    color: rgb(16, 14, 14);
+}
+   
+ 
